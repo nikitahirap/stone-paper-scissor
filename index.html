@@ -161,13 +161,13 @@
 
   <div class="choices">
     <button class="choice" data-choice="rock">
-      <img src="images/icon-rock.svg" alt="Rock" />
+      <img src="icon-rock.svg" alt="Rock" />
     </button>
     <button class="choice" data-choice="paper">
-      <img src="images/icon-paper.svg" alt="Paper" />
+      <img src="icon-paper.svg" alt="Paper" />
     </button>
     <button class="choice" data-choice="scissors">
-      <img src="images/icon-scissors.svg" alt="Scissors" />
+      <img src="icon-scissors.svg" alt="Scissors" />
     </button>
   </div>
 
@@ -220,8 +220,8 @@
     function showResult(user, computer) {
       document.querySelector(".choices").style.display = "none";
       document.getElementById("result").style.display = "block";
-      document.getElementById("user-pick").innerHTML = `<img src="images/icon-${user}.svg" alt="${user}">`;
-      document.getElementById("computer-pick").innerHTML = `<img src="images/icon-${computer}.svg" alt="${computer}">`;
+      document.getElementById("user-pick").innerHTML = `<img src="icon-${user}.svg" alt="${user}">`;
+      document.getElementById("computer-pick").innerHTML = `<img src="icon-${computer}.svg" alt="${computer}">`;
 
       let resultText = "";
       if (user === computer) {
